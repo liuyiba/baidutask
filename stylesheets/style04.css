@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding: 0;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	overflow:hidden;
+}
+.flex_container{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	border:1px solid red;
+}
+.rect{
+	height: 200px;
+	width: 400px;
+	background-color: #ccc;
+	position: relative;
+}
+.left_circle{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	border-radius: 0 0 50px 0;
+	background-color: #fc0;
+}
+.right_circle{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	border-radius: 50px 0 0 0 ;
+	background-color: #fc0;
+	top: 150px;
+	left: 350px;
+}
